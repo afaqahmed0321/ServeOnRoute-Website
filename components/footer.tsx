@@ -24,7 +24,7 @@ export function Footer() {
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <span className="p-2 bg-purple-800 rounded-lg">
+              <span className="p-1/2 bg-purple-800 rounded-xl">
             <Image
               src="/images/logo.png"
               alt="ServeOnRoute Logo"
