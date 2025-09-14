@@ -24,13 +24,14 @@ export function Footer() {
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
+              <span className="p-2 bg-purple-800 rounded-lg">
             <Image
               src="/images/logo.png"
               alt="ServeOnRoute Logo"
               width={32}
               height={32}
               className="w-8 h-8 object-contain"
-            />
+            /></span>
               <span className="text-xl font-bold text-gray-900">ServeOnRoute</span>
             </div>
             <p className="text-sm leading-relaxed text-gray-700">
